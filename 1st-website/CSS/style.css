@@ -1,0 +1,691 @@
+								/*navigation bar*/
+
+#header {
+	position: relative;
+	top: 10px;
+	background-color: #87CEFA;
+	border-radius: 30px;
+	width: 1240px;
+	height: 95px;
+	margin-left: 10px;
+	border: 2px solid #000000;
+}
+
+#navbar	{
+	overflow: hidden;
+}
+
+.menu	{
+	list-style-type: none;
+	float: left;
+	border: 2px solid #000000;
+	background-color: #FFFFE0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	font-family: Futura, Tahoma, sans-serif;
+}
+
+div div ul li a 	{
+	text-decoration: none;
+	display: block;
+}
+
+div div ul li a:hover	{
+	display: block;
+}
+
+								/*all links*/
+
+a:link	{
+	color: black;
+}
+
+a:visited	{
+	color: purple;
+}
+
+a:hover	{
+	color: blue;
+}
+
+a:active	{
+	color:red;
+}
+
+	
+
+								/*all links end here*/
+
+#websitelogo {
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin-top: -20px;
+	margin-left: 20px;
+}
+
+#socialmedia1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 110px;
+	margin-left: 910px;
+}
+
+#socialmedia2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 110px;
+	margin-left: 980px;
+}
+
+#home	{
+	margin-left: 30px;
+	border-radius: 30px;
+	padding: 5px;
+	width: 85px;
+	text-align: center;
+}
+
+#about 	{
+	margin-left: 100px;
+	border-radius: 30px;
+	padding: 5px;
+	width: 85px;
+	text-align: center;
+
+}
+
+#contact	{
+	margin-left: 100px;
+	border-radius: 30px;
+	padding: 5px;
+	width: 85px;
+	text-align: center;
+}
+
+#portfolio	{
+	margin-left: 100px;
+	border-radius: 30px;
+	padding: 5px;
+	width: 85px;
+	text-align: center;
+}
+
+#attribute	{
+	margin-left: 100px;
+	border-radius: 30px;
+	padding: 5px;
+	width: 85px;
+	text-align: center;
+}
+
+								/*Homepage body starts here*/
+
+/*left side*/
+
+body 	{
+	background-color: white;
+	font-family: Futura, Tahoma, sans-serif;
+}
+
+#mainblock	{
+	width: 540px;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+#block1	{
+	border-top: 5px solid black;
+	border-bottom: 5px solid #87CEFA;
+	border-left: 5px solid #FFFFE0;
+	border-right: 5px solid #FFFFE0;
+	width: 500px;
+	height: 90px; 
+	margin-top: 35px;
+	margin-left: 10px;
+	background-color: white;
+}
+
+#block2	{
+	border-top: 5px solid black;
+	border-bottom: 5px solid #87CEFA;
+	border-left: 5px solid #FFFFE0;
+	border-right: 5px solid #FFFFE0;
+	width: 500px;
+	height: 90px; 
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: white;
+}
+
+#block3	{
+	border-top: 5px solid black;
+	border-bottom: 5px solid #87CEFA;
+	border-left: 5px solid #FFFFE0;
+	border-right: 5px solid #FFFFE0;
+	width: 500px;
+	height: 90px; 
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: white;
+}
+
+#block4	{
+	border-top: 5px solid black;
+	border-bottom: 5px solid #87CEFA;
+	border-left: 5px solid #FFFFE0;
+	border-right: 5px solid #FFFFE0;
+	width: 500px;
+	height: 90px; 
+	margin-top: 30px;
+	margin-left: 10px;
+	background-color: white;
+}
+
+.leftimage	{
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 0px;
+	width: 85px;
+	height: 74px;
+}
+
+.rightdatahead	{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 380px;
+	font-family: Futura, Tahoma, sans-serif;
+	font-weight: bold;
+	color: #1D7CF2;
+}
+
+.rightdatasub	{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 380px;
+	height: 47px;
+	font-family: Futura, Tahoma, sans-serif;
+}
+
+.homeicon	{
+	display: block;
+	margin-left: 10px;
+}
+
+.rightdatahead a:hover {
+	color: blue;
+}
+
+.rightdatahead a {
+	text-decoration: none;
+	color:#1D7CF2;
+}
+
+/*right side*/
+
+#tree {
+	border: 1px white;
+	width: 500px;
+	height: 540px;
+	float: right;
+	margin-right: 70px;
+	margin-top: -478px;
+}
+
+.rightdatahead a:visited {
+	color: purple;
+}
+
+/*About page starts here*/
+
+#aboutTitle {
+	border: 2px solid white;
+	border-bottom: 5px solid black;
+	width: 1000px;
+	height: 100px;
+	margin-top: 90px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 160%;
+	line-height: 30%;
+	background-color: white;
+}
+
+#aboutPhoto {
+	border: 2px solid gray;
+	width: 250px;
+	height: 250px;
+	margin-top: 40px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	background-color: white;
+}
+
+#aboutBody {
+	width: 696px;
+	height: 255px;
+	margin-top: -274px;
+	margin-left: 405px;
+	font-family: Futura, Tahoma, sans-serif;
+	font-size: 120%;
+	background-color: white;
+}
+
+.meimage {
+	width: 250px;
+	height: 250px;
+}
+
+/*Portfolio*/
+
+#portoTitle {
+	border: 2px solid white;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 100px;
+	margin-top: 130px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 180%;
+	line-height: 30%;
+	background-color: white;
+}
+
+#portoMiniBody {
+	width: 1100px;
+	height: 800px;
+	margin-top: 30px;
+	margin-left: 75px;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.portoBlock {
+	border: 2px solid white;
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 300px;
+	margin-top: 25px;
+	margin-left: 30px;
+	padding-right: 10px;
+	font-size: 100%;
+	text-align: right;
+	background-color: white;
+}
+
+.placeholder {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	float: left;
+}
+
+/*Work*/
+
+#workTitle {
+	border: 2px solid white;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 100px;
+	margin-top: 130px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 180%;
+	line-height: 30%;
+	background-color: white;
+}
+
+#workMiniBody {
+	width: 1100px;
+	height: 2080px;
+	margin-top: 30px;
+	margin-left: 75px;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.workBox1 {
+	border: 2px solid white;
+	width: 1020px;
+	height: 330px;
+	margin-top: 25px;
+	margin-left: 30px;
+	border-top: 5px solid black;
+	text-align: right;
+}
+
+.workBox2 {
+	border: 2px solid white;
+	width: 1020px;
+	height: 330px;
+	margin-top: 25px;
+	margin-left: 30px;
+	border-top: 5px solid black;
+	text-align: right;
+}
+
+.workBox3 {
+	border: 2px solid white;
+	width: 1020px;
+	height: 330px;
+	margin-top: 25px;
+	margin-left: 30px;
+	border-top: 5px solid black;
+	text-align: right;
+}
+
+.workBox4 {
+	border: 2px solid white;
+	width: 1020px;
+	height: 330px;
+	margin-top: 25px;
+	margin-left: 30px;
+	border-top: 5px solid black;
+	text-align: right;
+}
+
+.workBox5 {
+	border: 2px solid white;
+	width: 1020px;
+	height: 330px;
+	margin-top: 25px;
+	margin-left: 30px;
+	border-top: 5px solid black;
+	text-align: right;
+}
+
+.workBox6 {
+	border: 2px solid white;
+	width: 1020px;
+	height: 330px;
+	margin-top: 25px;
+	margin-left: 30px;
+	border-top: 5px solid black;
+	text-align: center;
+}
+
+#nameBox {
+	border: 2px solid white;
+	border-right: 5px solid black;
+	width: 250px;
+	height: 300px;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 25px;
+	display: block;
+}
+
+#workTextBox1 {
+	border: 2px solid white;
+	width: 700px;
+	height: 105px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+#workTextBox2 {
+	border: 2px solid white;
+	width: 700px;
+	height: 125px;
+	float: right;
+	margin-top: 35px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+#workTextBox3 {
+	border: 2px solid white;
+	width: 700px;
+	height: 125px;
+	float: right;
+	margin-top: 33px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+#workTextBox4 {
+	border: 2px solid white;
+	width: 700px;
+	height: 125px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+#workTextBox5 {
+	border: 2px solid white;
+	width: 700px;
+	height: 125px;
+	float: right;
+	margin-top: 33px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+.jobImage {
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+#jobImage2 {
+	height: 145px;
+	width: 200px;
+}
+
+#jobImage3 {
+	height: 190px;
+	width: 190px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#jobImage4 {
+	height: 170px;
+	width: 170px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/*Education*/
+
+#eduMiniBody {
+	width: 1000px;
+	height: 725px;
+	margin-top: 40px;
+	margin-left: 88px;
+	padding-left: 30px;
+	background-color: white;
+	padding-top: 10px;
+}
+
+#eduTitle {
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 100px;
+	margin-top: 130px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 180%;
+	line-height: 30%;
+	background-color: white;
+}
+
+.eduBox {
+	border-top: 5px solid black;
+	width: 970px;
+	height: 200px;
+	margin-top: 30px;
+	text-align: left;
+}
+
+.eduData {
+	border: 2px solid white;
+	width: 700px;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.eduImage {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+#eduImage2 {
+	width: 180px;
+	height: 180px;
+	margin-top: 10px;
+	float: right;
+}
+
+#eduImage3 {
+	width: 180px;
+	height: 180px;
+	float: right;
+}
+
+
+/*Attributions*/
+
+#attrTitle {
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 100px;
+	margin-top: 130px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 180%;
+	line-height: 30%;
+	background-color: white;
+}
+
+#attrMiniBody {
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 900px;
+	margin-top: 70px;
+	margin-left: 88px;
+	padding-left: 30px;
+	text-align: center;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.credits {
+	border: 2px solid black;
+	width: 900px;
+	height: 70px;
+	margin-top: 30px;
+	margin-left: 40px;
+	background-color: #F0F0F0;
+}
+
+/*Skills*/
+
+#skillTitle {
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	width: 1000px;
+	height: 100px;
+	margin-top: 130px;
+	margin-left: 100px;
+	font-family: Futura, Tahoma, sans-serif;
+	text-align: center;
+	font-size: 180%;
+	line-height: 30%;
+	background-color: white;
+}
+
+
+#skillMiniBody {
+	width: 1000px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 88px;
+	padding-left: 30px;
+	background-color: white;
+	padding-top: 10px;
+}
+
+#skillBox {
+	border-top: 5px solid black;
+	width: 970px;
+	height: 200px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+/*contact*/
+
+#contactMiniBody {
+	border: 2px solid white;
+	width: 500px;
+	height: 345px;
+	margin-top: 110px;
+	margin-left: 50px;
+	font-size: 120%;
+	text-align: left;
+	padding-left: 20px;
+	background-color: white;
+}
+
+#contactpage {
+	float: right;
+	margin-top: -350px;
+	margin-right: 30px;
+	font-family: Futura, Tahoma, sans-serif;
+}
+
+#email {
+	text-align: center;
+	color: #00C957;
+	font-size: 130%;
+}
+
+
+/*footer*/
+
+#copyright	{
+	background-color: #87CEFA;
+	position: relative;
+	border: 2px solid black;
+	border-radius: 30px;
+	padding: 7px;
+	width: 1230px;
+	height: 25px;
+	margin-top: 40px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 0%;
+	color: #FFFFE0;
+}
+
+
